@@ -1,5 +1,11 @@
 $fly-tooltip-preffix: '.fly-tooltip';
 $fly-tooltip-max-width: 300px;
+$fly-tooltip-padding-y-sm: 8px;
+$fly-tooltip-padding-x-sm: 16px;
+$fly-tooltip-padding-y-md: 8px;
+$fly-tooltip-padding-x-md: 16px;
+$fly-tooltip-padding-y-lg: 8px;
+$fly-tooltip-padding-x-lg: 16px;
 
 #{$fly-tooltip-preffix} {
 	position: relative;
@@ -12,12 +18,13 @@ $fly-tooltip-max-width: 300px;
 	}
 	&-content {
 		background-color: rgba(0, 0, 0, 0.7);
-		padding: 8px 16px;
+		padding: $fly-tooltip-padding-y-md $fly-tooltip-padding-x-md;
 		position: absolute;
 		visibility: hidden;
 		color: #fff;
 		max-width: $fly-tooltip-max-width;
 		min-width: $fly-tooltip-max-width;
+		border-radius: 2px;
 
 		&-inline {
 			white-space: nowrap;
@@ -29,6 +36,11 @@ $fly-tooltip-max-width: 300px;
 
 // Sizes
 // xs
+#{$fly-tooltip-preffix} {
+	&-content {
+		padding: 8px 16px;
+	}
+}
 // sm
 // lg
 
