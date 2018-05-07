@@ -35,14 +35,19 @@ $fly-tooltip-padding-x-lg: 16px;
 }
 
 // Sizes
-// xs
 #{$fly-tooltip-preffix} {
-	&-content {
-		padding: 8px 16px;
+	&.xs {
+		#{$fly-tooltip-preffix}-content {
+			padding: $fly-tooltip-padding-y-xs $fly-tooltip-padding-x-xs;
+		}
+	}
+
+	&.lg {
+		#{$fly-tooltip-preffix}-content {
+			padding: $fly-tooltip-padding-y-lg $fly-tooltip-padding-x-lg;
+		}
 	}
 }
-// sm
-// lg
 
 // Animations
 // Fade
