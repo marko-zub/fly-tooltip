@@ -1,0 +1,17 @@
+.fly-tooltip {
+  position: relative;
+  display: inline-block; }
+  .fly-tooltip:hover .fly-tooltip-content {
+    visibility: visible; }
+  .fly-tooltip-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 16px;
+    position: absolute;
+    visibility: hidden;
+    color: #fff;
+    max-width: 300px;
+    min-width: 300px; }
+    .fly-tooltip-content-inline {
+      white-space: nowrap;
+      max-width: auto;
+      min-width: auto; }

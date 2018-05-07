@@ -1,0 +1,27 @@
+{
+  "name": "fly-tooltip",
+  "version": "0.0.1",
+  "description": "css only tooltip",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch src/scss/index.scss src/css/fly-tooltip.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-zub/fly-tooltip.git"
+  },
+  "keywords": [
+    "tooltip",
+    "css"
+  ],
+  "author": "i.markozub@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-zub/fly-tooltip/issues"
+  },
+  "homepage": "https://github.com/marko-zub/fly-tooltip#readme"
+}

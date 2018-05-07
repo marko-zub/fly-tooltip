@@ -1,0 +1,44 @@
+$fly-tooltip-preffix: '.fly-tooltip';
+$fly-tooltip-max-width: 300px;
+
+#{$fly-tooltip-preffix} {
+	position: relative;
+	display: inline-block; //Remove it
+
+	&:hover {
+		#{$fly-tooltip-preffix}-content {
+			visibility: visible;
+		}
+	}
+	&-content {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 8px 16px;
+		position: absolute;
+		visibility: hidden;
+		color: #fff;
+		max-width: $fly-tooltip-max-width;
+		min-width: $fly-tooltip-max-width;
+
+		&-inline {
+			white-space: nowrap;
+			max-width: auto;
+			min-width: auto;
+		}
+	}
+}
+
+// Sizes
+// xs
+// sm
+// lg
+
+// Animations
+// Fade
+// Jump
+// Scale
+
+// Positions
+// Top
+// Left
+// Bottom
+// Right
